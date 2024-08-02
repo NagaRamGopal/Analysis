@@ -4,3 +4,6 @@ from pandas_profiling import ProfileReport
 data=p.read_csv(r'C:\Users\ramgo\OneDrive\Desktop\Learn\Data Analysis\NissanDataSets\nissan-dataset.csv')
 #print(data.info())
 pp.ProfileReport(data, title="Pandas Profiling Report").to_file("report.html")
+
+
+#from dataprep.eda import plot, plot_correlation, create_report, plot_missingcreate_report(data)
